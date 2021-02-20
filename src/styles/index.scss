@@ -1,13 +1,44 @@
 @import "~bootstrap/scss/bootstrap.scss";
-
-/* 
-
-    You can write your own styles here...
+*{
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    list-style:none
+}
+.conte{
+    margin-left: 25%;
+}
+.controles{
+    background: black;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    width: 46%;
+    margin-left: 27%;
+    border: solid 5px;
+    border-color: rgb(109, 45, 45);
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.boton{
+    border: none;
+    background: none;
+    color: rgb(175, 128, 26);
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 30px;
+}
+.nombres{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: black;
+    color: white;
+    border: solid 2px;
+    border-color: white;
+}
+.fondo{
+    background-image: url("https://www.wallpapertip.com/wmimgs/1-11266_rick-y-morty-fondos-de-pantalla.jpg");
+}
+#gato{
+    margin-right: 10px;
+    color: rgb(175, 128, 26);
+}
